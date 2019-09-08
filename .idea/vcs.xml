@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/alalei" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/growth" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/iceye" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/little-boy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/missile-realtime" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/push" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sms" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-boot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/trident-ad" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/trident-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/trident-credit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/trident-dispatch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/trident-loan" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/trident-loan-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/trident-marketing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/trident-resources" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/trident-tongs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/trident-user" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/uid-search" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/workflow" vcs="Git" />
+  </component>
+</project>
