@@ -3,7 +3,7 @@
  * Author: 地球是平的
  * Date: 2019/9/19 11:06
  */
-package domain;
+package common;
 
 import java.nio.ByteBuffer;
 import java.util.ArrayList;

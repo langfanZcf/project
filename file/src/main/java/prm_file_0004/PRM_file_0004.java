@@ -1,9 +1,7 @@
 package prm_file_0004;
 
 
-import cn.hutool.log.Log;
-import cn.hutool.log.LogFactory;
-import domain.AByteArray;
+import common.AByteArray;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,7 +13,6 @@ import java.util.List;
  */
 
 public class PRM_file_0004 {
-    private static Log log= LogFactory.get();
 
     static String TAG="PRM_file_0004";
     /**
@@ -57,7 +54,7 @@ public class PRM_file_0004 {
                 }
             }
         } catch (Exception e) {
-            log.error(TAG+" ->getTickeRateByStation(): "+ e.getMessage());
+            System.out.println(TAG+" ->getTickeRateByStation(): "+ e.getMessage());
         }
     }
 

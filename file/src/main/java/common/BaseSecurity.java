@@ -3,7 +3,7 @@
  * Author: 地球是平的
  * Date: 2019/9/19 14:27
  */
-package domain;
+package common;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

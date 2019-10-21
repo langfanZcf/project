@@ -3,11 +3,8 @@
  * Author: 地球是平的
  * Date: 2019/9/19 14:28
  */
-package domain;
+package common;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 

@@ -1,6 +1,6 @@
 package service;
 
-import domain.AByteArray;
+import common.AByteArray;
 import domain.ParameterParseInterface;
 import prm_file_0004.PRM_file_0004;
 
@@ -10,7 +10,6 @@ import java.io.InputStream;
 import java.text.Collator;
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.List;
 
 import static jdk.nashorn.internal.objects.NativeError.getFileName;
 
@@ -35,7 +34,7 @@ public class ParameterParseTask {
     public static Boolean doInBackground() {
         try {
             //获取参数文件文件夹
-            File paramsDir = new File("C:\\Users\\Stig_Hardware\\Desktop\\");
+            File paramsDir = new File("D:\\");
 
             if (paramsDir.isDirectory()) {
                 //获取文件名称数组,并排序
