@@ -32,9 +32,8 @@ public class StationFareQuery {
     /**
      * 系统时间
      */
-    public static long timestamp = 0;
     protected static CardData cardData;
-    public static boolean FareQueryMoney(String start,String end) {
+    public static int FareQueryMoney(String start,String end) {
         cardData = new CardData();
 
         cardData.chip =0x01;//芯片类型：一票通Ultralight
@@ -46,11 +45,11 @@ public class StationFareQuery {
         ret = STupdateCheckTicketRoute(FareItem.inStation[0], FareItem.inStation[1], FareItem.targetStation[0], FareItem.targetStation[1], cardData);
         if (ret != 0) {
             FareItem.money = 0;
-            return false;
+            return  FareItem.money = 0;
         }
         FareItem.money = cardData.deal;
         System.out.println("票价："+FareItem.money);
-        return true;
+        return  FareItem.money;
     }
 
 
