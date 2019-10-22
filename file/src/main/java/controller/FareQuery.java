@@ -14,7 +14,12 @@ public class FareQuery {
         String start="0241";
         String end="0245";
         StationFareQuery  stationFareQuery =new StationFareQuery();
-        stationFareQuery.FareQueryMoney(start,end);
+        int i =stationFareQuery.FareQueryMoney(start,end);
+        if(i==0){
+            //程序启动即加载
+            doInBackground();
+            i=stationFareQuery.FareQueryMoney(start,end);
+        }
 
     }
 
